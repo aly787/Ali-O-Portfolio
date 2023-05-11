@@ -28,8 +28,10 @@ const Education = ({ education }) => {
           <div key={index} className="flex items-center justify-left mt-1">
             <div className="flex items-center">
               <div className="ml-4" style={{minWidth:"100vh"}}>
-                <h2 style={{fontFamily:"Montserrat", fontSize:"25px", color:"rgb(255, 248, 216)"}}>{university.name}</h2>
-                <p style={{fontFamily:"Montserrat", fontSize:"20px", color:"lightgray"}}>{university.program}</p>
+                <div style={{display: 'flex', alignItems: 'center', marginBottom: '10px'}}>
+                  <img src={"Eucalyp-Deus_University.png"} style={{width: '50px', height: '50px', borderRadius: '50%', marginRight: '10px'}} />
+                  <h2 style={{fontFamily:"Montserrat", fontSize:"25px", color:"rgb(255, 248, 216)"}}>{university.name}</h2>
+                </div>                <p style={{fontFamily:"Montserrat", fontSize:"20px", color:"lightgray"}}>{university.program}</p>
                 <hr style={{ borderTop: '4px ridge rgb(255, 248, 216)', margin: '0px 0', opacity: '30%' }} />
                 <h2 style={{fontFamily:"Montserrat", fontSize:"18px", color:"#FFF8D8", marginTop:"20px"}}>Courses:</h2>
                 <div className="flex mt-2">

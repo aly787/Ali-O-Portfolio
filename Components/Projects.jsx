@@ -51,6 +51,7 @@ const Projects = () => {
       <div className="w-1/2 p-8 bg-[#020816] text-white flex items-center">
         <div style={{color:"white"}}className="mb-4">
           <span className="text-green-500">{'>'}</span> {text}
+          <span className="text-green-500">{'>'}</span> {"text"}
         </div>
       </div>
       <div className="w-1/2 p-8 relative">

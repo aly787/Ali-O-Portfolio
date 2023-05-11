@@ -32,7 +32,7 @@ export default function Home() {
       <About id="about-section"/>
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
       <Education education={education}/>
-      <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
+      <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' , paddingTop:"20px"}} />
       <ExperienceTimeline />
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
       <Projects />

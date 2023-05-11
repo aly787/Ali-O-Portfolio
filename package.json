@@ -23,7 +23,8 @@
     "react-router-dom": "^6.11.1",
     "react-scroll": "^1.8.9",
     "react-scrollama": "^2.3.2",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

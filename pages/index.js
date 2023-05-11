@@ -1,12 +1,11 @@
 
 import {useState} from 'react';
-import Hero from '../components/Hero';
-import NavBar from '../components/NavBar';
-import About from '../components/About';
+import Hero from '../Components/Hero.jsx';
+import About from '../Components/About';
 import Projects from "../Components/Projects";
 import ExperienceTimeline from "../Components/Experience";
 import Contact from '../Components/Contact';
-import Education from '@/Components/Education';
+import Education from '../Components/Education';
 
 const education = [
   {

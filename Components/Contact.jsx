@@ -26,7 +26,7 @@ const Contact = () => {
                 <div className="flex flex-col items-center justify-center text-center">
                     <FaEnvelope size={30} onClick={handleEmailClick} style={{ cursor: 'pointer', width:'40', height:"40", color:"#FFF8D8"}}/>
                     <h2 style={{fontSize:"20px"}} className="mt-4 text-lg text-white">Email me</h2>
-                    <p style={{fontSize:"16px"}} className="mt-2 text-[#FFF8D8]">ali.t.ottoman@gmail.com</p>
+                    <p style={{fontSize:"16px"}} className="mt-2 text-[#FFF8D8]">ali.r.ottoman@gmail.com</p>
                 </div>
                 <div className="flex flex-col items-center justify-center text-center">
                     <FaPhone size={30} style={{ cursor: 'pointer', width:'40', height:"40", color:"#FFF8D8"}}/>

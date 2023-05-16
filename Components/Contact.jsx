@@ -14,7 +14,7 @@ const Contact = () => {
         window.open(mailtoLink);
       };
   return (
-    <section className="bg-[#020816] dark:bg-gray-900">
+    <section id="contact" className="bg-[#020816] dark:bg-gray-900">
         <div className="container px-6 py-12 mx-auto">
 
             <div className="text-center">

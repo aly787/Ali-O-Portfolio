@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link , animateScroll as scroll } from 'react-scroll';
 
 
 const NavBar = () => {
@@ -21,7 +21,7 @@ const NavBar = () => {
             justifyContent: 'center',
         }}
         >
-        <button
+        <Link to="about" spy={true} offset={0} duration={500}
             style={{
             color: 'white',
             margin: '0 20px',
@@ -40,8 +40,8 @@ const NavBar = () => {
             }}
         >
             Home
-        </button>
-        <button
+        </Link>
+        <Link to="about" spy={true} offset={0} duration={500}
             style={{
             color: 'white',
             margin: '0 20px',
@@ -60,8 +60,8 @@ const NavBar = () => {
             }}
         >
             About
-        </button>
-        <button
+        </Link>
+        <Link to="resume" spy={true} offset={0} duration={500}
             style={{
             color: 'white',
             margin: '0 20px',
@@ -80,8 +80,8 @@ const NavBar = () => {
             }}
         >
             Resume
-        </button>
-        <button
+        </Link>
+        <Link to="projects" spy={true} offset={0} duration={500}
             style={{
             color: 'white',
             margin: '0 20px',
@@ -100,8 +100,8 @@ const NavBar = () => {
             }}
         >
             Projects
-        </button>
-        <button
+        </Link>
+        <Link to="contact" spy={true} offset={0} duration={500}
             style={{
             color: 'white',
             margin: '0 20px',
@@ -119,7 +119,7 @@ const NavBar = () => {
             }}
         >
             Contact
-        </button>
+        </Link>
         <hr style={{ borderTop: '10px solid #000', margin: '10px 0', opacity: '50%' }} />
         </nav>
         <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />

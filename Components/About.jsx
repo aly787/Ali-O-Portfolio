@@ -22,7 +22,7 @@ const About = () => {
   };
 
   return (
-    <div className="columns-2" style={{ backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh',display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '40px 0' }}>
+    <div id="about" className="columns-2" style={{ backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh',display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '40px 0' }}>
       <div>
         <h2 style={{ textAlign: 'center', color: "#FFF8D8", fontFamily: "Montserrat", fontWeight: "700", fontSize: "30px" }}>ABOUT</h2>
         <h2 style={{ textAlign: 'center', color: "white", fontFamily: "Montserrat", fontWeight: "700", fontSize: "40px" }}>A little about myself.</h2>
@@ -34,13 +34,6 @@ const About = () => {
           <div style={{ position: 'sticky', top: '0' }}>
             <h3 style={headingStyle}>Profile</h3>
             <p style={contentStyle}>As an ambitious and innovative AI and Computer Science graduate, I am equipped with a solid foundation in cutting-edge technologies. Passionate about leveraging Artificial Intelligence to drive transformative solutions, I am driven to contribute to the ever-evolving field of technology. With a focus on problem-solving and a dedication to lifelong learning, I am eager to make a meaningful impact and shape the future of the digital landscape.</p>
-            <h3 style={{lineHeight: "3",textAlign: 'left',color: "white", fontFamily: "Montserrat", fontWeight: "700", fontSize: "18px"}}>Fullname</h3>
-            <p style={contentStyle}>Ali Tamer Raafat Ottoman</p>
-            <h3 style={{lineHeight: "3",textAlign: 'left',color: "white", fontFamily: "Montserrat", fontWeight: "700", fontSize: "18px"}}>Date of Birth</h3>
-            <p style={contentStyle}>22 October 2001</p>
-            <h3 style={{lineHeight: "3",textAlign: 'left',color: "white", fontFamily: "Montserrat", fontWeight: "700", fontSize: "18px"}}>Email</h3>
-            <p style={contentStyle}>ali.r.ottoman@gmail.com</p>
-
           </div>
         </div>
 

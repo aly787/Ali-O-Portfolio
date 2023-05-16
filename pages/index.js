@@ -27,17 +27,17 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div style={{backgroundColor:"#020816"}}>
-      <Hero />
+      <Hero id="hero"/>
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
-      <About id="about-section"/>
+      <About id="about"/>
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
-      <Education education={education}/>
+      <ExperienceTimeline id="experience" />
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' , paddingTop:"20px"}} />
-      <ExperienceTimeline />
+      <Education education={education} id="education"/>
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
-      <Projects />
+      <Projects id="projects"/>
       <hr style={{ borderTop: '1px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
-      <Contact />
+      <Contact id="contact"/>
       <hr style={{ borderTop: '10px solid #C8A579', margin: '0px 0', opacity: '50%' }} />
     </div>
   );

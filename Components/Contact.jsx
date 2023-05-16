@@ -39,7 +39,7 @@ const Contact = () => {
                         <FaLinkedin size={30} style={{ cursor: 'pointer', width:'40', height:"40", color:"#FFF8D8"}}/>
                     </a>
                     <h2 style={{fontSize:"20px"}} className="mt-4 text-lg text-white">Connect with me!</h2>
-                    <p style={{fontSize:"16px"}} className="mt-2 text-[#FFF8D8]">ali.t.ottoman@gmail.com</p>
+                    <p style={{fontSize:"16px"}} className="mt-2 text-[#FFF8D8]">ali.r.ottoman@gmail.com</p>
                 </div>
             </div>
         </div>

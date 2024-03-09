@@ -13,13 +13,44 @@ const ExperienceTimeline = () => {
       </div>
       <div style={{paddingLeft:"150px", paddingBottom:"40px"}}>
       <ol className="relative border-l border-[#FFF8D8] dark:border-gray-700 w-50% " style={{maxWidth:"80%", justifyContent:"center"}}>
+          
           <li className="mb-10 ml-8">            
               <span className="absolute flex items-center justify-center w-6 h-6 bg-[#FFF8D8] rounded-full -left-3 ring-8 ring-[#FFF8D8] dark:ring-gray-900 dark:bg-blue-900">
                   <FcBusiness className="w-6 h-6"/>
               </span>
-              <h3 className="flex items-center mb-1 text-[25px] font-semibold text-white">Teacher Assistant & Student Ambassodor</h3>
+              <h3 className="flex items-center mb-3 text-2xl font-semibold text-white">Odoo<span style={{paddingLeft:"10px"}} className="text-[#C8A579]">  (Business Support Analyst)</span>
+                  <span className="bg-[#FFF8D8] text-[#8c6739] text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">AI Optimization</span>
+                  <span className="bg-[#FFF8D8] text-[#8c6739] text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Python</span>
+                  <span className="bg-[#FFF8D8] text-[#8c6739] text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Odoo Suite</span>
+                  <span className="bg-[#FFF8D8] text-[#8c6739] text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Quality Standards & Efficiency</span>
+              </h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep 2023 - Current</time>
+              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400" style={{fontSize:"13px"}}>As a Business Support Analysts at Odoo, my role was to identify and resolve various complex issues, being funtional, technical or otherwise on clients' database. On a daily basis I worked with numerous clients to understand their needs and gripes to provide them with the best service possible. Through this short journey I am proud of the achievements I have already accomplished:</p>
+              <div style={{marginLeft:"40px"}}>
+                <ol className="list-decimal mb-4 text-base font-normal text-gray-500" style={{fontSize:"13px"}}>
+                  <li><span className='text-[#8c6739] font-bold'>Dubai's Highest Achiever:</span> Spearheaded client support for over <span className='font-bold'>750</span> companies in 6 months, achieving <span className='font-bold'>highest case volume per month</span> <span className='font-bold'> (220+)</span> and the <span className='font-bold'>highest average case complexity</span> in Dubai office history (surpassing previous record by <span className='font-bold'>27%</span>). This volume represents nearly <span className='font-bold'>2%</span> of global
+                      case volume across <span className='font-bold'>500+</span> analysts.
+                  </li>
+                  <li>Developed and deployed <span className='text-[#8c6739] font-bold'>AI Algorithm</span> utilizing <span className='font-bold'>Python</span> and <span className='font-bold'>TF-IDF</span> to optimize case resolution by <span className='font-bold'>40%</span> through improved similar case
+                      identification within a massive historical dataset.
+                  </li>
+                  <li><span className='text-[#8c6739] font-bold'>Highest consecutive months (2) with top client satisfaction ratings.</span> Surpassing previous record by <span className='font-bold'>57%</span>.
+                  </li>
+                  <li>Consistently ranked <span className='text-[#8c6739] font-bold'>top performer</span> (5 out of 6 months), demonstrating dedication and exceptional results.
+                  </li>
+                  <li>Maintained one of the <span className='text-[#8c6739] font-bold'>highest rates of immediate problem resolution</span> within the team, prioritizing client success.
+                  </li>
+                </ol>
+              </div> 
+          </li>
+
+          <li className="mb-10 ml-8">            
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-[#FFF8D8] rounded-full -left-3 ring-8 ring-[#FFF8D8] dark:ring-gray-900 dark:bg-blue-900">
+                  <FcBusiness className="w-6 h-6"/>
+              </span>
+              <h3 className="flex items-center mb-3 text-2xl font-semibold text-white">University of Birmingham<span style={{paddingLeft:"10px"}} className="text-[#C8A579]">  (Teacher Assistant & Student Ambassador)</span>
+              </h3>
               <div>
-                <h3 className="flex items-center mb-1 text-[20px] font-semibold text-[#C8A579]">University of Birmingham</h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2022 • May 2023</time>
               </div>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400" style={{fontSize:"13px"}}>During my time at the University of Birmingham, I served as a Teacher Assistant and Student Representative, where I provided academic support to students and acted as a liaison between students and faculty. In this role, I gained valuable experience in leadership, communication, and collaboration. Specifically, I:</p>

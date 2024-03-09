@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from '../Components/NavBar';
 import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
+// Add a larger contact indicator to the hero serction
+
 const Hero = () => {
   const handleEmailClick = () => {
     const emailAddress = 'ali.r.ottoman@gmail.com';
@@ -42,7 +44,7 @@ const Hero = () => {
           ALI OTTOMAN
         </h1>
         <p style={{ color: 'white', fontFamily: "Montserrat", fontWeight: "400", fontSize: '20px', marginBottom: '20px', textAlign: 'center', wordWrap: 'break-word', width:"70%" }}>
-        Artificial Intelligence Graduate | Baseball Enthusiast
+        Business Support Analyst | Artificial Intelligence Graduate | Baseball Enthusiast
         </p>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <a href="https://www.linkedin.com/in/ali-r-ottoman" target="_blank" rel="noopener noreferrer">
